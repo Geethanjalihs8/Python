@@ -2,17 +2,17 @@
 # and last element of a list 
   
 # Swap function 
-def swapList(newList): 
-    size = len(newList) 
-      
-    # Swapping  
-    temp = newList[0] 
-    newList[0] = newList[size - 1] 
-    newList[size - 1] = temp 
-      
-    return newList 
-      
-# Driver code 
-newList = [12, 35, 9, 56, 24] 
-  
-print(swapList(newList)) 
+x = 5
+y = 10
+
+# To take inputs from the user
+#x = input('Enter value of x: ')
+#y = input('Enter value of y: ')
+
+# create a temporary variable and swap the values
+temp = x
+x = y
+y = temp
+
+print('The value of x after swapping: {}'.format(x))
+print('The value of y after swapping: {}'.format(y))
